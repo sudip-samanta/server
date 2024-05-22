@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: server
+  datasource:
+    name: dev-mysql
+    url: jdbc:mysql://localhost:3306/mydb?createDatabaseIfNotExist=true
+    username: root
+    password: password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+
+
+
+
+
